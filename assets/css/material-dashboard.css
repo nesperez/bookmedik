@@ -3537,7 +3537,7 @@ footer .btn {
 .navbar .dropdown-menu li a:active, .navbar.navbar-default .dropdown-menu li a:hover,
 .navbar.navbar-default .dropdown-menu li a:focus,
 .navbar.navbar-default .dropdown-menu li a:active {
-  background-color: #9c27b0;
+  background-color: #33A6DD;
   color: #FFFFFF;
   box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);
 }
@@ -3599,7 +3599,7 @@ footer .btn {
   background-color:#0F4474;
 }
 .card .card-header .title {
-  color: #FFFFFF;
+  color: #33A6DD;
 }
 .card .card-header .category {
   margin-bottom: 0;
