@@ -1,4 +1,4 @@
-<?php 
+<?php
 $user = MedicData::getById($_GET["id"]);
 $categories = CategoryData::getAll();
 ?>
@@ -6,7 +6,7 @@ $categories = CategoryData::getAll();
 	<div class="col-md-12">
 
 <div class="card">
-  <div class="card-header" data-background-color="blue">
+  <div class="card-header">
       <h4 class="title">Editar Medico</h4>
   </div>
   <div class="card-content table-responsive">
@@ -17,9 +17,9 @@ $categories = CategoryData::getAll();
     <label for="inputEmail1" class="col-lg-2 control-label">Area*</label>
     <div class="col-md-6">
     <select name="category_id" class="form-control">
-    <option value="">-- SELECCIONE --</option>      
+    <option value="">-- SELECCIONE --</option>
     <?php foreach($categories as $cat):?>
-    <option value="<?php echo $cat->id; ?>" <?php if($user->category_id==$cat->id){ echo "selected"; }?>><?php echo $cat->name; ?></option>      
+    <option value="<?php echo $cat->id; ?>" <?php if($user->category_id==$cat->id){ echo "selected"; }?>><?php echo $cat->name; ?></option>
     <?php endforeach;?>
     </select>
     </div>

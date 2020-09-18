@@ -1,8 +1,5 @@
 <?php
-/**
-* BookMedik
-* @author evilnapsis
-**/
+
 
 if(count($_POST)>0){
 	$user = new CategoryData();

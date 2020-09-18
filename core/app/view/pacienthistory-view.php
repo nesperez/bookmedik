@@ -15,9 +15,9 @@ $pacient = PacientData::getById($_GET["id"]);
 -->
 </div>
 <div class="card">
-  <div class="card-header" data-background-color="blue">
+  <div class="card-header">
       <h4 class="title">Historial de Citas del Paciente</h4>
-<p>Paciente: <?php echo $pacient->name." ".$pacient->lastname;?></p>
+<p class="simple-tag">Paciente: <?php echo $pacient->name." ".$pacient->lastname;?></p>
   </div>
   <div class="card-content table-responsive">
 		<?php

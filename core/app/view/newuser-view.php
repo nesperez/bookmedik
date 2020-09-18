@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="col-md-12">
 <div class="card">
-  <div class="card-header" data-background-color="blue">
+  <div class="card-header">
       <h4 class="title">Nuevo usuario</h4>
   </div>
   <div class="card-content table-responsive">
@@ -46,7 +46,7 @@
     <div class="col-md-6">
 <div class="checkbox">
     <label>
-      <input type="checkbox" name="is_admin"> 
+      <input type="checkbox" name="is_admin">
     </label>
   </div>
     </div>

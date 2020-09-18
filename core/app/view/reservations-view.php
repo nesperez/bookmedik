@@ -14,11 +14,11 @@
 
 
 <div class="card">
-  <div class="card-header" data-background-color="blue">
+  <div class="card-header">
       <h4 class="title">Citas</h4>
   </div>
   <div class="card-content table-responsive">
-<a href="./index.php?view=newreservation" class="btn btn-info">Nueva Cita</a>
+<a href="./index.php?view=newreservation" class="btn btn-default">Nueva Cita</a>
 <a href="./index.php?view=oldreservations" class="btn btn-default">Citas Anteriores</a>
 <br><br>
 <form class="form-horizontal" role="form">

@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="col-md-12">
 <div class="card">
-  <div class="card-header" data-background-color="blue">
+  <div class="card-header">
       <h4 class="title">Categorias</h4>
   </div>
   <div class="card-content table-responsive">

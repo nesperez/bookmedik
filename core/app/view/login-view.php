@@ -20,8 +20,8 @@ if(Session::getUID()!=""){
     	 endif; ?>
 
 <div class="card">
-  <div class="card-header" data-background-color="blue">
-      <h4 class="title">Acceder a BookMedik</h4>
+  <div class="card-header">
+      <h4 class="title login-text" align="center">Acceder a Clouding Medical</h4>
   </div>
   <div class="card-content table-responsive">
 			    	<form accept-charset="UTF-8" role="form" method="post" action="index.php?view=processlogin">

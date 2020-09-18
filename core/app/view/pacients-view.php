@@ -12,7 +12,7 @@
 -->
 </div>
 <div class="card">
-  <div class="card-header" data-background-color="blue">
+  <div class="card-header" >
       <h4 class="title">Pacientes</h4>
   </div>
   <div class="card-content table-responsive">

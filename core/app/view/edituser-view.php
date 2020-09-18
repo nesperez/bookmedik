@@ -2,7 +2,7 @@
 <div class="row">
 	<div class="col-md-12">
 <div class="card">
-  <div class="card-header" data-background-color="blue">
+  <div class="card-header">
       <h4 class="title">Editar Usuario</h4>
   </div>
   <div class="card-content table-responsive">
@@ -48,7 +48,7 @@
     <div class="col-md-6">
 <div class="checkbox">
     <label>
-      <input type="checkbox" name="is_active" <?php if($user->is_active){ echo "checked";}?>> 
+      <input type="checkbox" name="is_active" <?php if($user->is_active){ echo "checked";}?>>
     </label>
   </div>
     </div>
@@ -60,7 +60,7 @@
     <div class="col-md-6">
 <div class="checkbox">
     <label>
-      <input type="checkbox" name="is_admin" <?php if($user->is_admin){ echo "checked";}?>> 
+      <input type="checkbox" name="is_admin" <?php if($user->is_admin){ echo "checked";}?>>
     </label>
   </div>
     </div>

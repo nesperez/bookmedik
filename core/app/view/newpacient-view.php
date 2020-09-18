@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="col-md-12">
 <div class="card">
-  <div class="card-header" data-background-color="blue">
+  <div class="card-header">
       <h4 class="title">Nuevo Paciente</h4>
   </div>
   <div class="card-content table-responsive">
@@ -10,15 +10,21 @@
 
 
   <div class="form-group">
-    <label for="inputEmail1" class="col-lg-2 control-label">Nombre*</label>
+    <label for="inputEmail1" class="col-lg-2 control-label">Nombre *</label>
     <div class="col-md-6">
-      <input type="text" name="name" required class="form-control" id="name" placeholder="Nombre">
+      <input type="text" name="name" required class="form-control" id="name" placeholder="Nombre" required>
     </div>
   </div>
   <div class="form-group">
-    <label for="inputEmail1" class="col-lg-2 control-label">Apellido</label>
+    <label for="inputEmail1" class="col-lg-2 control-label">Apellido *</label>
     <div class="col-md-6">
-      <input type="text" name="lastname"  class="form-control" id="lastname" placeholder="Apellido">
+      <input type="text" name="lastname"  class="form-control" id="lastname" placeholder="Apellido" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail1" class="col-lg-2 control-label">RFC *</label>
+    <div class="col-md-6">
+      <input type="text" name="RFC"  class="form-control" id="lastname" placeholder="RFC"required>
     </div>
   </div>
   <div class="form-group">
@@ -43,9 +49,15 @@
 
 
   <div class="form-group">
-    <label for="inputEmail1" class="col-lg-2 control-label">Direccion*</label>
+    <label for="inputEmail1" class="col-lg-2 control-label">Direccion *</label>
     <div class="col-md-6">
       <input type="text" name="address" class="form-control"  id="address1" placeholder="Direccion">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail1" class="col-lg-2 control-label">C.P *</label>
+    <div class="col-md-6">
+      <input type="text" name="postal_code" class="form-control"  id="address1" placeholder="C.P">
     </div>
   </div>
   <div class="form-group">

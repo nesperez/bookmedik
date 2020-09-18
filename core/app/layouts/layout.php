@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-  <title>BookMedik - Dashboard</title>
+  <title>Clouding Medical</title>
 
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -77,6 +77,12 @@
                           <p>Usuarios</p>
                       </a>
                   </li>
+                  <li>
+                      <a href="./?view=#">
+                          <i class="fa fa-users"></i>
+                          <p>Definir</p>
+                      </a>
+                  </li>
               </ul>
         </div>
       </div>
@@ -121,7 +127,7 @@
 
       <div class="content">
       <div class="container-fluid">
-<?php 
+<?php
   // puedo cargar otras funciones iniciales
   // dentro de la funcion donde cargo la vista actual
   // como por ejemplo cargar el corte actual
@@ -136,14 +142,7 @@
           <nav class="pull-left">
             <ul>
               <li>
-                <a href="./?view=changelog" >
-                  Log de cambios
-                </a>
-              </li>
-              <li>
-                <a href="http://evilnapsis.com/" target="_blank">
-                  Evilnapsis
-                </a>
+                
               </li>
         <!--
               <li>
@@ -165,14 +164,14 @@
             </ul>
           </nav>
           <p class="copyright pull-right">
-            <a href="http://evilnapsis.com" target="_blank">Evilnapsis</a> &copy; 2016 
+            <a href="https://clouding.mx" target="_blank">Clouding</a> &copy; 2020
           </p>
         </div>
       </footer>
     </div>
   </div>
 <?php else:?>
-  <?php 
+  <?php
   View::load("login");
 
 ?>

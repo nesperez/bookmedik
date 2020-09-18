@@ -1,4 +1,4 @@
-<?php 
+<?php
 $reservation = ReservationData::getById($_GET["id"]);
 $pacients = PacientData::getAll();
 $medics = MedicData::getAll();
@@ -9,7 +9,7 @@ $payments = PaymentData::getAll();
 	<div class="col-md-12">
 
 <div class="card">
-  <div class="card-header" data-background-color="blue">
+  <div class="card-header">
       <h4 class="title">Modificar Cita</h4>
   </div>
   <div class="card-content table-responsive">
